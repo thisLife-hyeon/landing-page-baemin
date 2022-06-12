@@ -1,0 +1,53 @@
+//한양고딕 A1
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;600&display=swap');
+//배달의 민족 도현체
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+*,
+*::before,
+*::after {
+  font-family: 'Roboto', 'Gothic A1', sans-serif;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html,
+body {
+  //   position: relative;
+  overflow-x: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  font: inherit;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 9rem;
+}
+h2 {
+  font-size: 8rem;
+}
+//h3 h4 폰트사이즈 ㅜ정하기
+h3 {
+  font-size: 4.2rem;
+}
+h4 {
+  font-size: 4rem;
+}
+h5 {
+  font-size: 3.2rem;
+}
+p,
+li,
+button,
+a,
+span {
+  font-size: 2.8rem;
+}

@@ -1,0 +1,156 @@
+.container {
+  width: 100vw;
+
+  .main {
+    width: 100%;
+    height: 96rem;
+    // 메뉴바랑 탭창 고려하여 930에서 980으로 작업
+    display: flex;
+    flex-direction: column;
+    padding: 14rem 26rem 0 26rem;
+    background-color: $color--primary;
+    color: $color--white;
+    // position: absolute;
+
+    &__top {
+      width: 140rem;
+      height: 6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // background-color: aquamarine;
+
+      .line {
+        width: 94rem;
+        height: 1px;
+        background-color: $color--white;
+      }
+    }
+    &__wrap {
+      margin-top: 6.5rem;
+      width: 140rem;
+      height: 70.5rem;
+      // display: flex;
+      // background-color: rgb(181, 139, 84);
+      .main {
+        &__right {
+          // width: 140rem;
+          height: 46rem;
+          // @include bgimg;
+          // background-image: url(../img/main.png);
+          // background-position: right;
+          position: relative;
+          z-index: 0;
+          top: 24.5rem;
+          left: 49rem;
+        }
+
+        &__left {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          top: -46rem;
+          left: 0;
+          z-index: 10;
+          // background-color: bisque;
+          h1 {
+            line-height: 1.2;
+          }
+          button {
+            @include btn;
+            height: 8rem;
+            color: $color--primary;
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .business {
+    // position: relative;
+    // z-index: 0;
+    width: 100vw;
+    height: 96rem;
+    // margin: 0;
+    // padding: 0;
+    // border: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__left {
+      width: 60.4rem;
+      height: 56rem;
+      background-color: $color--primary;
+    }
+  }
+
+  .service {
+    width: 100vw;
+    height: 212rem;
+    background-color: $color--lightgray;
+    // padding: 0 26rem;
+
+    &__top {
+      display: flex;
+    }
+
+    &__bottom {
+      li {
+        width: 140rem;
+        height: 37rem;
+        margin-bottom: 6.2rem;
+        @include bgimg;
+        background-image: url(../img/box.png);
+
+        &:last-child {
+          background-image: url(../img/box2.png);
+        }
+        .service__bottom-- {
+          &left {
+            text-align: left;
+          }
+          &right {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .review {
+    &__top {
+      text-align: center;
+      margin-top: 12.4rem;
+    }
+    &__bottom {
+      ul {
+        width: 140rem;
+        height: 53.4rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: aquamarine;
+      }
+      &--1,
+      &--2,
+      &--3 {
+        width: 40rem;
+        height: 53.4rem;
+        border-radius: 6rem;
+        background-color: $color--lightgray2;
+      }
+    }
+  }
+  .process {
+    &__top {
+      .process__top {
+        width: 100vw;
+        // height: 20rem;
+        display: flex;
+        // flex-direction: column;
+      }
+    }
+  }
+}

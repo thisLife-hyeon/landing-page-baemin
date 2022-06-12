@@ -1,0 +1,32 @@
+.gnb {
+  width: 100vw;
+  height: 7em;
+  background-color: rgba($color: $color--darkgray, $alpha: 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  box-shadow: rgba($color: #000000, $alpha: 0.3) 0px 1px 10px;
+  color: $color--white;
+
+  ul {
+    width: 99.6rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    .gnb__top {
+      justify-content: center;
+      display: flex;
+      // flex-direction: row;
+      // justify-content: space-between;
+      align-items: center;
+      a {
+        font-size: 2.2rem;
+        color: $color--white;
+      }
+    }
+  }
+}

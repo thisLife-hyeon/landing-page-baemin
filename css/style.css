@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+*, *::before, *::after { font-family: 'Roboto', 'Gothic A1', sans-serif; -webkit-box-sizing: border-box; box-sizing: border-box; font-weight: normal; }
+
+html, body { overflow-x: hidden; }
+
+html { font-size: 62.5%; }
+
+body { width: 100vw; font: inherit; }
+
+h1, h2, h3, h4 { font-family: 'Do Hyeon', sans-serif; font-weight: normal; }
+
+h1 { font-size: 9rem; }
+
+h2 { font-size: 8rem; }
+
+h3 { font-size: 4.2rem; }
+
+h4 { font-size: 4rem; }
+
+h5 { font-size: 3.2rem; }
+
+p, li, button, a, span { font-size: 2.8rem; }
+
+.gnb { width: 100vw; height: 7em; background-color: rgba(55, 55, 55, 0.9); position: fixed; top: 0; z-index: 99; -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px; color: #fff; }
+
+.gnb ul { width: 99.6rem; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 0 auto; }
+
+.gnb ul .gnb__top { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.gnb ul .gnb__top a { font-size: 2.2rem; color: #fff; }
+
+.container { width: 100vw; }
+
+.container .main { width: 100%; height: 96rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 14rem 26rem 0 26rem; background-color: #2ac1bc; color: #fff; }
+
+.container .main__top { width: 140rem; height: 6rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.container .main__top .line { width: 94rem; height: 1px; background-color: #fff; }
+
+.container .main__wrap { margin-top: 6.5rem; width: 140rem; height: 70.5rem; }
+
+.container .main__wrap .main__right { height: 46rem; position: relative; z-index: 0; top: 24.5rem; left: 49rem; }
+
+.container .main__wrap .main__left { width: 100%; height: 100%; position: relative; top: -46rem; left: 0; z-index: 10; }
+
+.container .main__wrap .main__left h1 { line-height: 1.2; }
+
+.container .main__wrap .main__left button { width: 30.2rem; height: 8.8rem; border: none; border-radius: 5rem; background-color: #fff; cursor: pointer; height: 8rem; color: #2ac1bc; margin-top: 4rem; }
+
+.container .business { width: 100vw; height: 96rem; background-color: antiquewhite; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.container .business__left { width: 60.4rem; height: 56rem; background-color: #2ac1bc; }
+
+.container .service { width: 100vw; height: 212rem; background-color: #efefef; }
+
+.container .service__top { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.container .service__bottom li { width: 140rem; height: 37rem; margin-bottom: 6.2rem; background-repeat: no-repeat; background-position: center; background-size: contain; background-image: url(../img/box.png); }
+
+.container .service__bottom li:last-child { background-image: url(../img/box2.png); }
+
+.container .service__bottom li .service__bottom--left { text-align: left; }
+
+.container .service__bottom li .service__bottom--right { text-align: right; }
+
+.container .review__top { text-align: center; margin-top: 12.4rem; }
+
+.container .review__bottom ul { width: 140rem; height: 53.4rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin: 0 auto; background-color: aquamarine; }
+
+.container .review__bottom--1, .container .review__bottom--2, .container .review__bottom--3 { width: 40rem; height: 53.4rem; border-radius: 6rem; background-color: #dbdbdb; }
+
+.container .process__top .process__top { width: 100vw; display: -webkit-box; display: -ms-flexbox; display: flex; }

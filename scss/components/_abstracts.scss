@@ -1,0 +1,25 @@
+//variables
+$color--white: #fff;
+$color--lightgray: #efefef;
+$color--lightgray2: #dbdbdb;
+$color--gray: #303030;
+$color--darkgray: #373737;
+$color--black: #000;
+$color--primary: #2ac1bc;
+
+//mixin
+
+@mixin btn {
+  width: 30.2rem;
+  height: 8.8rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: $color--white;
+  cursor: pointer;
+}
+
+@mixin bgimg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
