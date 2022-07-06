@@ -104,8 +104,7 @@ body {
   line-height: 1;
 }
 ol,
-ul,
-li {
+ul {
   list-style: none;
 }
 blockquote,
@@ -122,17 +121,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-/* 추가 */
-a {
-  color: #000;
-  text-decoration: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
-}
-a:visited {
-  color: #000;
-}
-/* a:hover {text-decoration:underline} */
-input {
-  font-size: 14px;
 }
